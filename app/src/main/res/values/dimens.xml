@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_medium_large">14dp</dimen>
+
+    <dimen name="margin_xlarge">20dp</dimen>
+    <dimen name="margin_xxlarge">50dp</dimen>
+    <dimen name="margin_micro">4dp</dimen>
+    <dimen name="margin_list_item">24dp</dimen>
+
+    <!--Grey line height-->
+    <dimen name="grey_line_height">1dp</dimen>
+
+    <!-- Text size-->
+    <dimen name="xsmall">14sp</dimen>
+    <dimen name="small">16sp</dimen>
+    <dimen name="medium">18sp</dimen>
+</resources>

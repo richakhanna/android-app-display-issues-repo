@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/item_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_micro"
+        android:layout_marginTop="@dimen/margin_medium_large"
+        android:fontFamily="@string/roboto_regular"
+        android:gravity="center"
+        android:paddingLeft="@dimen/margin_xlarge"
+        android:paddingRight="@dimen/margin_xlarge"
+        android:text="@string/text_comments"
+        android:textColor="@color/black_text"
+        android:textSize="@dimen/small"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grey_line_height"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:background="@color/separator_grey_line" />
+
+    <ListView
+        android:id="@+id/item_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_xlarge"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_weight="1"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="0dp" />
+
+    <Button
+        android:id="@+id/button_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_rounded_bottom"
+        android:fontFamily="@string/roboto_regular"
+        android:text="@string/dialog_button_close"
+        android:textAllCaps="true"
+        android:textColor="@drawable/text_black_button_selector" />
+
+</LinearLayout>
